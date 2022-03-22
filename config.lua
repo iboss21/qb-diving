@@ -9,8 +9,8 @@ QBBoatshop.Docks = {
     ["lsymc"] = {
         label = "LSYMC Boathouse",
         coords = {
-            take = vector3(-794.66, -1510.83, 1.59),
-            put = vector4(-793.58, -1501.4, 0.12, 111.5)
+            take = vector3(507.87, -3171.64, 6.07),
+            put = vector4(527.0418, -3174.544, 0.2208916, 175.94004)
         }
     },
     ["paleto"] = {
@@ -42,7 +42,7 @@ QBBoatshop.Depots = {
 QBBoatshop.Locations = {
     ["berths"] = {
         [1] = {
-            ["boatModel"] = "seashark",
+            ["boatModel"] = "sr650fly",
             ["coords"] = {
                 ["boat"] = vector4(-727.05, -1326.59, 1.06, 229.5),
                 ["buy"] = vector3(-723.3, -1323.61, 1.59),
@@ -92,10 +92,10 @@ QBBoatshop.ShopBoats = {
         ["label"] = "Marquis",
         ["price"] = 30000
     },
-    ["seashark"] = {
-        ["model"] = "seashark",
-        ["label"] = "Seashark",
-        ["price"] = 10000
+    ["sr650fly"] = {
+        ["model"] = "sr650fly",
+        ["label"] = "Yacht",
+        ["price"] = 240000
     }
 }
 
